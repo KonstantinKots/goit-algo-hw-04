@@ -3,8 +3,8 @@ from pathlib import Path
 #функція для розрахунку загальної та середньої зп
 def total_salary(path: str | Path):
     '''Функція розраховує загальну сумму заробітної плати
-    та середню із списка у форматі (ФІО, ЗП)
-    :param date: шлях до файлу з (ФІО, ЗП)
+    та середню із списка у форматі (ПІБ, ЗП)
+    :param date: шлях до файлу з (ПІБ, ЗП)
     :type date: str | Path
     :return: загальну (total) та середню (average) ЗП
     :rtype: tuple[float, float]
